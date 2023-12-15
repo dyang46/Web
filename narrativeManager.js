@@ -6,7 +6,7 @@ const narrativeManager = class {
   constructor() {
     this.data = {
       timeElapsed : 0,
-      possiblePhases : ["phase1", "phase2", "phase3"],
+      possiblePhases : ["phase1", "phase2", "phase3"], // three phases total
       phase : "phase1",
       beats : beats,
       beatsTriggered: [],

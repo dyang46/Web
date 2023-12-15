@@ -19,7 +19,7 @@ const hauntings = class {
    
    
    
-  static flickerImage(intensity, flicker){
+  /*static flickerImage(intensity, flicker){
       flicker = ! flicker;
       
       
@@ -31,7 +31,7 @@ const hauntings = class {
         else
           flickerImage[x].style.mixBlendMode = "exclusion";
         }
-    }
+    }*/
     
   static textReplacement(intensity, data){
     let phrases = ["#$%#%", "<strong>", "</strong>"];

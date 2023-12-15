@@ -5,10 +5,39 @@
     transition: background-color linear 1s;
     
   }
+
+  c1{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+
+  }
   
   h1 {
-    color:#beef;
-    font-size: 50pt;
+    color:rgb(91, 91, 91);
+    font-family:'Roboto', sans-serif;;
+    font-size: 40pt;
+    
+    
+  }
+
+  h2 {
+    color:rgb(91, 91, 91);
+    font-family:'Roboto', sans-serif;;
+    font-size: 10pt;  
+    
+  }
+
+  h4 {
+    color:rgb(153, 35, 35);
+    font-family:'Roboto', sans-serif;;
+    font-size: 10pt;  
+    display: none;;
     
   }
   
@@ -20,19 +49,19 @@
   
   body.phase1{
     position:relative; 
-    background-color: #0000aa;
+    background-color: #7f7fcf;
     
   }
   
   body.phase2{
     position:relative; 
-    background-color: #440044;
+    background-color: #ffd6ff;
     color: yellow;
     
   }
   
   body.phase3 {
-    background-color: #990000;
+    background-color: #9a9a9a;
     color: white;
   }
   
@@ -47,7 +76,7 @@ iframe{
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-image: url("./whaleEye.jpg");
+  
   mix-blend-mode: difference;
   object-fit: fill;
   
