@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function() {
   // Set the time interval for the switch (in milliseconds)
-  let switchInterval = 20000; // 5 seconds
+  let switchInterval = 360000; 
 
   setTimeout(function() {
       // Select the paragraphs
